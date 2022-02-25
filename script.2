@@ -148,6 +148,10 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/BIAT/qual
       
       //Sets whether we use a certain focal attribute throughout the task, or both.
 			focalAttribute : 'both', // Accepts 'attribute1', 'attribute2' or 'both', 
+			
+			//focalCategoryOrder can be: 'bySequence', 'random'.
+			//If bySequence then we always start with categories[0] as the first focal category.
+			focalCategoryOrder : 'bySequence', 
       
       //Sets what attribute appears first. Irrelevant if focalAttributes is not 'both'. 
 			firstFocalAttribute : 'random', //Accepts 'attribute1', 'attribute2' or 'random'. 
